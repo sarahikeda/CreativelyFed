@@ -1,0 +1,116 @@
+body {
+  padding: 0;
+  margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.name {
+	margin-top: 50px;
+	width: 85%;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 4em;
+  padding-left: 10px;
+}
+
+.description {
+  margin: 0 auto;
+  width: 80%;
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+}
+
+.section {
+	margin-top: 100px;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.featured-works {
+  display: grid;
+  column-gap: 50px;
+	grid-template-columns: 1fr;
+	margin-top: 100px;
+}
+
+.project-category:nth-child(1) {
+	color: #49beb7;
+	font-size: 1.2em;
+}
+
+.first-work {
+	padding-top: 5px;
+	width: 100%;
+}
+
+.writeup {
+	margin: 10px 15px 0 10px;
+	font-size: .8em;
+}
+
+.second-work .project-img {
+	margin-top: 50px;
+	width: 100%;
+}
+
+.team {
+	display: grid;
+	grid-template-columns: 1fr;
+	margin: 50px 50px;
+	text-align: center;
+}
+
+.team .person-bio {
+	width: 100%;
+	font-size: .8em;
+}
+
+.team .individual-writeup {
+	margin-bottom: 50px;
+	font-size: 1em;
+}
+
+@media only screen and (min-width: 768px) {
+	.description {
+		font-size: 2em;
+	}
+	.section { margin-top: 150px; }
+	.writeup {
+		font-size: 1.2em;
+	}
+
+	.featured-works {
+		grid-template-columns: 2fr 1fr;
+		column-gap: 50px;
+	}
+
+	.second-work .project-img {
+		margin-top: 150px;
+	}
+
+	.team {
+		margin: 300px 50px 20px 50px;
+		grid-template-columns: 1fr 1fr;
+		column-gap: 100px;
+	}
+
+	.team .person-bio {
+		width: 80%;
+	}
+
+	.team .individual-writeup {
+		text-align: center;
+	}
+}
+
+.email {
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.email a {
+	color: black;
+}
+
+.email a:hover {
+	color: #c015fc;
+}
