@@ -1,4 +1,8 @@
 
+.anim-source {
+  opacity: 0;
+}
+
 .name span {
   position: relative;
   opacity: 0;
